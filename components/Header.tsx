@@ -31,7 +31,7 @@ export default function Header() {
     <a className="skip" href="#main">{t.common.skip}</a>
     <div className="nav-wrap">
       <Link href="/" className="brand" aria-label={t.siteName} onClick={close}><img src="/images/logo.png" alt="" /></Link>
-      <nav className={open ? "nav open" : "nav"} aria-label="Primary navigation">
+      <nav id="primary-navigation" className={open ? "nav open" : "nav"} aria-label="Primary navigation">
         {links.map(([key, href]) => <Link className={pathname === href ? "nav-link active" : "nav-link"} key={href} href={href} onClick={close} aria-current={pathname === href ? "page" : undefined}>{t.nav[key]}</Link>)}
         <Button href="/donate">{t.nav.donate}</Button>
       </nav>
@@ -40,7 +40,7 @@ export default function Header() {
           <button type="button" className={lang === "en" ? "selected" : ""} aria-pressed={lang === "en"} onClick={() => setLang("en")}>English</button>
           <button type="button" className={lang === "ta" ? "selected" : ""} aria-pressed={lang === "ta"} onClick={() => setLang("ta")}>தமிழ்</button>
         </div>
-        <button className={open ? "menu-button open" : "menu-button"} type="button" aria-expanded={open} aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen(!open)}><span /><span /><span /></button>
+        <button className={open ? "menu-button open" : "menu-button"} type="button" aria-expanded={open} aria-controls="primary-navigation" aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen(!open)}><span /><span /><span /></button>
       </div>
     </div>
     {open && <button className="drawer-backdrop" type="button" aria-label="Close menu" onClick={close} />}

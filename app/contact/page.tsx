@@ -1,0 +1,6 @@
+"use client";
+import { FormEvent, useState } from "react";
+import { Page } from "@/components/Page";
+import { useLanguage } from "@/components/LanguageProvider";
+import { contact } from "@/lib/site";
+export default function Contact() { const { t } = useLanguage(); const [sent,setSent]=useState(false); const submit=(e:FormEvent)=>{e.preventDefault();setSent(true)}; return <Page title={t.contact.title}><section className="section"><div className="container two-col"><div><p className="lead">{t.contact.intro}</p><h2>{t.contact.address}</h2><a className="text-link" href={`mailto:${contact.email}`}>{t.contact.email}: {contact.email}</a>{contact.phones.map(p=><a className="phone-line" href={p[3]} key={p[3]}>{p[1]} · {p[2]}</a>)}<a className="button" href={contact.whatsapp}>WhatsApp</a></div><form className="form" onSubmit={submit}><h2>{t.contact.formTitle}</h2><label>{t.volunteer.name}<input required /></label><label>{t.volunteer.phone}<input required type="tel" /></label><label>{t.volunteer.email}<input type="email" /></label><label>{t.contact.reason}<select>{t.contact.reasons.map(r=><option key={r}>{r}</option>)}</select></label><label>{t.contact.message}<textarea rows={5} /></label><button className="button" type="submit">{t.contact.submit}</button>{sent&&<p className="success" role="status">{t.contact.success}</p>}</form></div></section></Page>; }

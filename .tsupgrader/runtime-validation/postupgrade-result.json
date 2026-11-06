@@ -1,0 +1,64 @@
+{
+  "planHash": "46cb4cec9ed1ca9b29bc0fc36246f95a70181c673faf6749d0c5fa7178bf56dd",
+  "phase": "postupgrade",
+  "recordedAtUtc": "2026-11-06T15:13:35.9511218Z",
+  "retryCount": 6,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 7956,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "home-route-serves",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 class=\u0022inter_bd6d8b9e-module__r1-oYG__variable poppins_58a92ee5-module__wYGxtW__variable noto_sans_tamil_c0cb0a70-module__HYGBXW__variable\u0022\u003E\u003Chead\u003E\u003Cmeta charSet=\u0022utf-8\u0022/\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022image\u0022 href=\u0022/images/gallery/IMG-20261106-WA0008.jpg.jpeg\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022image\u0022 href=\u0022/images/gallery/IMG-20261106-WA0009.jpg.jpeg\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022image\u0022 href=\u0022/images/gallery/IMG-20261106-WA0010.jpg.jpeg\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022image\u0022 href=\u0022/images/gallery/IMG-20261106-WA0011.jpg.jpeg\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022image\u0022 href=\u0022/images/gallery/IMG-20261106-WA0012.jpg.jpeg\u0022/\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022/_next/static/chunks/%5Broot-of-the-server%5D__0rgntfzlwsssp._.css\u0022 data-precedence=\u0022next_static/chunks/[root-of-the-server]__0rgntfzlwsssp._.css\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022script\u0022 fetchPriority=\u0022low\u0022 href=\u0022/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0fb9-gqu7_t97._.js\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/1daa_next_dist_compiled_react-dom_cjs_react-dom-client_development_0mp0cp_t-ezj9.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/1q96_modules_next_dist_compiled_react-dom_cjs_react-dom_development_1sqry0_53krp4.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_react-dom_0grqycjrj6mju._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-67asdr9._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_090k2jmam7qwg.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_1amofcmz--cdp._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_client_1165-soo5tfpf._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_05y3oi5z9mc_3._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_%40swc_helpers_cjs_1r9vbqwj2323d._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_1anvha4rlo79g._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/turbopack-_11q0wbt2n0d9y._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_219uq1sj0q91c._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_0rggw7nz3f2nl._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_10sxdtyfsxqdv._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Ctitle\u003EIrugur Gnanamani Ammayar Charitable Trust\u003C/title\u003E\u003Cmeta name=\u0022description\u0022 content=\u0022A caring and dignified home for elders in Irugur, Coimbatore.\u0022/\u003E\u003Cmeta name=\u0022next-size-adjust\u0022 content=\u0022\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js\u0022 noModule=\u0022\u0022\u003E\u003C/script\u003E\u003C/head\u003E\u003Cbody\u003E\u003Cdiv hidden=\u0022\u0022\u003E\u003C!--$--\u003E\u003C!--/$--\u003E\u003C/div\u003E\u003Cheader class=\u0022site-header\u0022\u003E\u003Ca class=\u0022skip\u0022 href=\u0022#main\u0022\u003ESkip to content\u003C/a\u003E\u003Cdiv class=\u0022nav-wrap\u0022\u003E\u003Ca class=\u0022brand\u0022 aria-label=\u0022Irugur Gnanamani Ammayar Charitable Trust\u0022 href=\u0022/\u0022\u003E\u003Cimg src=\u0022/images/logo.png\u0022 alt=\u0022\u0022/\u003E\u003C/a\u003E\u003Cnav id=\u0022primary-navigation\u0022 class=\u0022nav\u0022 aria-label=\u0022Primary navigation\u0022\u003E\u003Ca class=\u0022nav-link active\u0022 aria-current=\u0022page\u0022 href=\u0022/\u0022\u003EHome\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/about\u0022\u003EAbout us\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/our-home\u0022\u003ELife at the home\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/team\u0022\u003EOur team\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/gallery\u0022\u003EGallery\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/volunteer\u0022\u003EVolunteer\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/transparency\u0022\u003ETransparency\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/contact\u0022\u003EContact\u003C/a\u003E\u003Ca class=\u0022button button-primary\u0022 href=\u0022/donate\u0022\u003EDonate\u003C/a\u003E\u003C/nav\u003E\u003Cdiv class=\u0022nav-actions\u0022\u003E\u003Cdiv class=\u0022language-switch\u0022 role=\u0022group\u0022 aria-label=\u0022Language\u0022\u003E\u003Cbutton type=\u0022button\u0022 class=\u0022selected\u0022 aria-pressed=\u0022true\u0022\u003EEnglish\u003C/button\u003E\u003Cbutton type=\u0022button\u0022 class=\u0022\u0022 aria-pressed=\u0022false\u0022\u003E\u0BA4\u0BAE\u0BBF\u0BB4\u0BCD\u003C/button\u003E\u003C/div\u003E\u003Cbutton class=\u0022menu-button\u0022 type=\u0022button\u0022 aria-expanded=\u0022false\u0022 aria-controls=\u0022primary-navigation\u0022 aria-label=\u0022Open menu\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003Cspan\u003E\u003C/span\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E\u003C/div\u003E\u003C/div\u003E\u003C/header\u003E\u003Cdiv class=\u0022page-transition\u0022\u003E\u003Cmain id=\u0022main\u0022\u003E\u003Csection class=\u0022hero\u0022\u003E\u003Cdiv class=\u0022contain\n\u2026[truncated]",
+        "durationMs": 48
+      }
+    ],
+    "executions": [
+      {
+        "source": "setup[0]",
+        "resolvedExecutable": "/home/sanjay/.nvm/versions/node/v24.21.0/bin/npm",
+        "args": [
+          "ci"
+        ],
+        "cwd": "/home/sanjay/irugurgmarcharitabletrust",
+        "env": {},
+        "prependPath": [],
+        "platform": "linux"
+      },
+      {
+        "source": "devServer",
+        "resolvedExecutable": "/home/sanjay/.nvm/versions/node/v24.21.0/bin/npm",
+        "args": [
+          "run",
+          "dev"
+        ],
+        "cwd": "/home/sanjay/irugurgmarcharitabletrust",
+        "env": {},
+        "prependPath": [],
+        "platform": "linux"
+      },
+      {
+        "source": "home-route-serves",
+        "resolvedExecutable": "/home/sanjay/.nvm/versions/node/v24.21.0/bin/npm",
+        "args": [
+          "run",
+          "dev"
+        ],
+        "cwd": "/home/sanjay/irugurgmarcharitabletrust",
+        "env": {},
+        "prependPath": [],
+        "platform": "linux"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "planHash": "46cb4cec9ed1ca9b29bc0fc36246f95a70181c673faf6749d0c5fa7178bf56dd",
+  "phase": "baseline",
+  "recordedAtUtc": "2026-11-06T15:10:39.4410366Z",
+  "retryCount": 0,
+  "resetBaseline": true,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 8673,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "home-route-serves",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 class=\u0022__variable_69d019 __variable_c51512 __variable_a0b4eb\u0022\u003E\u003Chead\u003E\u003Cmeta charSet=\u0022utf-8\u0022/\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022image\u0022 href=\u0022/images/gallery/IMG-20261106-WA0008.jpg.jpeg\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022image\u0022 href=\u0022/images/gallery/IMG-20261106-WA0009.jpg.jpeg\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022image\u0022 href=\u0022/images/gallery/IMG-20261106-WA0010.jpg.jpeg\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022image\u0022 href=\u0022/images/gallery/IMG-20261106-WA0011.jpg.jpeg\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022image\u0022 href=\u0022/images/gallery/IMG-20261106-WA0012.jpg.jpeg\u0022/\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022/_next/static/css/app/layout.css?v=1793977838037\u0022 data-precedence=\u0022next_static/css/app/layout.css\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022script\u0022 fetchPriority=\u0022low\u0022 href=\u0022/_next/static/chunks/webpack.js?v=1793977838037\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/main-app.js?v=1793977838037\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/app-pages-internals.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/app/layout.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/app/page.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cmeta name=\u0022next-size-adjust\u0022 content=\u0022\u0022/\u003E\u003Ctitle\u003EIrugur Gnanamani Ammayar Charitable Trust\u003C/title\u003E\u003Cmeta name=\u0022description\u0022 content=\u0022A caring and dignified home for elders in Irugur, Coimbatore.\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/polyfills.js\u0022 noModule=\u0022\u0022\u003E\u003C/script\u003E\u003C/head\u003E\u003Cbody\u003E\u003Cdiv hidden=\u0022\u0022\u003E\u003C!--$--\u003E\u003C!--/$--\u003E\u003C/div\u003E\u003Cheader class=\u0022site-header\u0022\u003E\u003Ca class=\u0022skip\u0022 href=\u0022#main\u0022\u003ESkip to content\u003C/a\u003E\u003Cdiv class=\u0022nav-wrap\u0022\u003E\u003Ca class=\u0022brand\u0022 aria-label=\u0022Irugur Gnanamani Ammayar Charitable Trust\u0022 href=\u0022/\u0022\u003E\u003Cimg src=\u0022/images/logo.png\u0022 alt=\u0022\u0022/\u003E\u003C/a\u003E\u003Cnav id=\u0022primary-navigation\u0022 class=\u0022nav\u0022 aria-label=\u0022Primary navigation\u0022\u003E\u003Ca class=\u0022nav-link active\u0022 aria-current=\u0022page\u0022 href=\u0022/\u0022\u003EHome\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/about\u0022\u003EAbout us\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/our-home\u0022\u003ELife at the home\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/team\u0022\u003EOur team\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/gallery\u0022\u003EGallery\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/volunteer\u0022\u003EVolunteer\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/transparency\u0022\u003ETransparency\u003C/a\u003E\u003Ca class=\u0022nav-link\u0022 href=\u0022/contact\u0022\u003EContact\u003C/a\u003E\u003Ca class=\u0022button button-primary\u0022 href=\u0022/donate\u0022\u003EDonate\u003C/a\u003E\u003C/nav\u003E\u003Cdiv class=\u0022nav-actions\u0022\u003E\u003Cdiv class=\u0022language-switch\u0022 role=\u0022group\u0022 aria-label=\u0022Language\u0022\u003E\u003Cbutton type=\u0022button\u0022 class=\u0022selected\u0022 aria-pressed=\u0022true\u0022\u003EEnglish\u003C/button\u003E\u003Cbutton type=\u0022button\u0022 class=\u0022\u0022 aria-pressed=\u0022false\u0022\u003E\u0BA4\u0BAE\u0BBF\u0BB4\u0BCD\u003C/button\u003E\u003C/div\u003E\u003Cbutton class=\u0022menu-button\u0022 type=\u0022button\u0022 aria-expanded=\u0022false\u0022 aria-controls=\u0022primary-navigation\u0022 aria-label=\u0022Open menu\u0022\u003E\u003Cspan\u003E\u003C/span\u003E\u003Cspan\u003E\u003C/span\u003E\u003Cspan\u003E\u003C/span\u003E\u003C/button\u003E\u003C/div\u003E\u003C/div\u003E\u003C/header\u003E\u003Cdiv class=\u0022page-transition\u0022\u003E\u003Cmain id=\u0022main\u0022\u003E\u003Csection class=\u0022hero\u0022\u003E\u003Cdiv class=\u0022container hero-grid\u0022\u003E\u003Cdiv\u003E\u003Cp class=\u0022eyebrow\u0022\u003EIrugur Gnanamani Ammayar Charitable Trust\u003C/p\u003E\u003Ch1\u003EA home where every elder is treated with dignity\u003C/h1\u003E\u003Cp class=\u0022lead\u0022\u003EWe provide a safe, caring and respectful home for elders in Irugur, Coimbatore.\u003C/p\u003E\u003Cdiv class=\u0022actions\u0022\u003E\u003Ca class=\u0022button\u0022 href=\u0022/donate\u0022\u003EDonate\u003C/a\u003E\u003Ca class=\u0022button button-outline\u0022 href=\u0022/contact\u0022\u003EContact us\u003C/a\u003E\u003C/div\u003E\u003C/div\u003E\u003Cdiv class=\u0022slideshow\u0022\u003E\u003Cdiv class=\u0022slide-frame\u0022 aria-live=\u0022polite\u0022\u003E\u003Cimg class=\u0022slide-image active\u0022 src=\u0022/images/gallery/IMG_20251115_101357.jpg.jpeg\u0022 alt=\u0022Irugur Gnanamani Ammayar Charitable Trust - Gallery image\u0022 aria-hidden=\u0022false\u0022/\u003E\u003Cimg class=\u0022slide-image\u0022 src=\u0022/images/gallery/IMG_20251115_101407.jpg.jpeg\u0022 alt=\u0022Irugur Gnanamani Ammayar Charitable Trust - Gallery image\u0022 aria-hidden=\u0022true\u0022/\u003E\u003Cimg class=\u0022slide-image\u0022 src=\u0022/images/gallery/IMG_20251115_101425.jpg.jpeg\u0022 alt=\u0022Irugur Gnanamani Ammayar Charitable Trust - Gallery image\u0022 aria-hidden=\u0022true\u0022/\u003E\u003Cimg class=\u0022slide-image\u0022 src=\u0022/images/gallery/IMG_20251205_131305.jpg.jpeg\u0022 alt=\u0022Irugur Gnanamani Ammayar Charitable Trust - Gallery image\u0022 aria-hidden=\u0022true\u0022/\u003E\u003Cimg class=\u0022slide-image\u0022 src=\u0022/images/gallery/IMG_20260103_101725.jpg.jpeg\u0022 alt=\u0022Irugur Gnanamani Ammayar Charitable Trust - Gallery image\u0022 aria-hidden=\u0022true\u0022/\u003E\u003Cimg class=\u0022slide-image\u0022 src=\u0022/images/gallery/IMG_20260809_184919.jpg.jpeg\u0022 alt=\u0022Irugur Gnanamani \n\u2026[truncated]",
+        "durationMs": 116
+      }
+    ],
+    "executions": [
+      {
+        "source": "setup[0]",
+        "resolvedExecutable": "/home/sanjay/.nvm/versions/node/v24.21.0/bin/npm",
+        "args": [
+          "ci"
+        ],
+        "cwd": "/home/sanjay/irugurgmarcharitabletrust",
+        "env": {},
+        "prependPath": [],
+        "platform": "linux"
+      },
+      {
+        "source": "devServer",
+        "resolvedExecutable": "/home/sanjay/.nvm/versions/node/v24.21.0/bin/npm",
+        "args": [
+          "run",
+          "dev"
+        ],
+        "cwd": "/home/sanjay/irugurgmarcharitabletrust",
+        "env": {},
+        "prependPath": [],
+        "platform": "linux"
+      },
+      {
+        "source": "home-route-serves",
+        "resolvedExecutable": "/home/sanjay/.nvm/versions/node/v24.21.0/bin/npm",
+        "args": [
+          "run",
+          "dev"
+        ],
+        "cwd": "/home/sanjay/irugurgmarcharitabletrust",
+        "env": {},
+        "prependPath": [],
+        "platform": "linux"
+      }
+    ]
+  }
+}

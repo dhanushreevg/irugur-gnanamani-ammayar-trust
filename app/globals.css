@@ -249,7 +249,7 @@ body.lightbox-open{overflow:hidden}
 
 /* Keep every Tamil pill visible in the tablet nav row. */
 @media(min-width:1101px) and (max-width:1240px){
-  html[lang="ta"] .nav{gap:3px}
+  html[lang="ta"] .nav{gap:3px;justify-content:center}
   html[lang="ta"] .nav .nav-link{font-size:.8rem;padding:8px 5px}
   html[lang="ta"] .nav .button{font-size:.82rem;padding:9px 10px}
 }
@@ -382,69 +382,4 @@ body.lightbox-open{overflow:hidden}
   .footer{overflow-x:clip}
   .footer-grid{min-width:0}
   .footer a{overflow-wrap:anywhere}
-}
-
-/* Keep Tamil and English on the same desktop navigation geometry. */
-@media(min-width:1101px){
-  html[lang="ta"] .site-header,
-  html[lang="ta"] .site-header.scrolled{height:80px;min-height:0}
-  html[lang="ta"] .nav-wrap{
-    display:grid;
-    grid-template-columns:auto minmax(0,1fr) auto;
-    width:min(1200px,calc(100% - 96px));
-    height:100%;
-    padding:0;
-    gap:12px;
-  }
-  html[lang="ta"] .brand{display:flex;flex:0 0 auto;width:auto;height:100%}
-  html[lang="ta"] .brand img,
-  html[lang="ta"] .site-header.scrolled .brand img{width:52px;height:52px}
-  html[lang="ta"] .nav-actions{display:flex;margin-left:0}
-  html[lang="ta"] .menu-button{display:none}
-  html[lang="ta"] .nav{
-    position:static;
-    display:flex;
-    visibility:visible;
-    width:auto;
-    height:auto;
-    max-height:none;
-    padding:0;
-    flex-direction:row;
-    align-items:center;
-    justify-content:center;
-    overflow:visible;
-    transform:none;
-    background:transparent;
-    box-shadow:none;
-    white-space:nowrap;
-  }
-  html[lang="ta"] .nav .nav-link{
-    display:inline-flex;
-    width:auto;
-    min-height:40px;
-    height:40px;
-    margin:0;
-    padding:8px 7px;
-    justify-content:center;
-    border:1.5px solid rgba(30,77,58,.28);
-    border-radius:999px;
-    font-size:.78rem;
-    white-space:nowrap;
-  }
-  html[lang="ta"] .nav .button{
-    display:inline-flex;
-    width:auto;
-    min-height:40px;
-    height:40px;
-    margin:0;
-    padding:9px 12px;
-    border-radius:999px;
-    font-size:.8rem;
-  }
-  html[lang="ta"] .drawer-backdrop{display:none}
-}
-
-@media(max-width:767px){
-  html,body,#__next{overflow-x:clip!important;width:100%!important;max-width:100vw!important}
-  .site-header,.mobile-actions,.back-top{max-width:100vw;overflow:hidden}
 }

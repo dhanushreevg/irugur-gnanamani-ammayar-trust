@@ -368,14 +368,21 @@ body.lightbox-open{overflow:hidden}
     position:fixed !important;
     top:64px !important;
     right:12px !important;
-    bottom:12px !important;
+    bottom:auto !important;
     left:12px !important;
     z-index:1002 !important;
     display:flex !important;
+    width:auto !important;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:calc(100dvh - 76px) !important;
+    margin:0 !important;
+    padding:12px 16px 16px !important;
     visibility:visible !important;
     flex-direction:column !important;
     align-items:stretch !important;
     overflow-y:auto !important;
+    gap:0 !important;
     background:var(--cream) !important;
     color:var(--text) !important;
     opacity:1 !important;
@@ -383,13 +390,34 @@ body.lightbox-open{overflow:hidden}
   }
   .nav.open .nav-link,
   .nav.open>.button{
+    display:flex !important;
+    flex:0 0 auto !important;
+    width:100% !important;
+    min-height:52px !important;
     visibility:visible !important;
     opacity:1 !important;
     color:var(--green) !important;
   }
+  .nav.open .nav-link{
+    align-items:center !important;
+    justify-content:flex-start !important;
+    padding:8px 6px !important;
+    border:0 !important;
+    border-bottom:1px solid rgba(217,168,58,.5) !important;
+    border-radius:0 !important;
+    background:transparent !important;
+    text-align:left !important;
+  }
   .nav.open>.button{
     background:var(--maroon) !important;
     color:#fff !important;
+    justify-content:center !important;
+  }
+  .nav.open .nav-link.active{
+    background:rgba(217,168,58,.16) !important;
+    border-bottom-color:var(--green) !important;
+    color:var(--green) !important;
+    border-radius:8px !important;
   }
   .drawer-backdrop{
     z-index:1001 !important;

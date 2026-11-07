@@ -2,7 +2,7 @@ export const contact = {
   email: "irugurgmarcharitabletrust@gmail.com",
   whatsapp: "https://wa.me/919385843353",
   address: "Old Aged Home, E.B. Colony, New Residency Area, Irugur, Coimbatore - 641 103, Tamil Nadu, India",
-  mapUrl: "https://www.google.com/maps/search/?api=1&query=Old%20Aged%20Home%2C%20E.B.%20Colony%2C%20New%20Residency%20Area%2C%20Irugur%2C%20Coimbatore%20-%20641%20103%2C%20Tamil%20Nadu%2C%20India",
+  mapUrl: "https://maps.app.goo.gl/D2wqo2xFC8UgY6CE9",
   phones: [
     ["Managing Trustee", "Mrs. R. Thamarai Selvi", "+91 93858 43353", "tel:+919385843353"],
     ["Secretary", "Ms. R. Blessy Joy", "+91 97915 19774", "tel:+919791519774"],

@@ -381,6 +381,16 @@ body.lightbox-open{overflow:hidden}
     opacity:1 !important;
     transform:translateX(0) !important;
   }
+  .nav.open .nav-link,
+  .nav.open>.button{
+    visibility:visible !important;
+    opacity:1 !important;
+    color:var(--green) !important;
+  }
+  .nav.open>.button{
+    background:var(--maroon) !important;
+    color:#fff !important;
+  }
   .drawer-backdrop{
     z-index:1001 !important;
   }
